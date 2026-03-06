@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #6a0dad; /* Purple color */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.contact-info h1 { margin: 0; font-size: 24px; }
+.contact-info p { margin: 2px 0; font-size: 14px; }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+.hero {
+    padding: 80px 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 300px; /* Adjust based on your local image size */
+    height: auto;
+    margin-right: 50px;
+}
+
+.bio-text h2 {
+    color: #6a0dad;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.bio-text p {
+    color: #555;
+    font-size: 18px;
+    max-width: 600px;
+}

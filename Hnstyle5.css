@@ -1,0 +1,24 @@
+.scroll-to-top {
+    text-align: right;
+    padding: 20px;
+}
+
+.scroll-to-top a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #6a0dad; /* Purple color matching your image */
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%; /* Makes it a circle */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.scroll-to-top a:hover {
+    background-color: #4b0082; /* Darker purple on hover */
+}
